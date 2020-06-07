@@ -19,7 +19,7 @@ void setup()
   SPI.begin();      // Initiate  SPI bus
   mfrc522.PCD_Init();   // Initiate MFRC522
   Serial.println("Approximate your card to the reader...");
-  Serial.println();
+  Serial.println(); // print
   
   pinMode(2, OUTPUT);//Light2 pin
   pinMode(3, OUTPUT);//Light3 pin
